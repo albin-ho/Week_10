@@ -23,9 +23,13 @@ void check_if_equal(numero &a, numero &b) {
   }
 }
 int main() {
+  // define variables
   int x, y;
   float p, q;
-
+  //
+  cout << "This program uses a generic template to compare 2 int/float numbers"
+       << endl;
+  //
   cout << "Type two integer numbers: ";
   cin >> x >> y;
   cout << "The typed integers are: " << "\n";
